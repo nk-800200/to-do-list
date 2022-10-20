@@ -7,6 +7,8 @@ A simple web page to create to do list. User can add or remove task from the lis
 - JAVASCRIPT
 
 ### Screenshots
-** Destop View
-<img src="Destop view.png">
+**Destop View**<br>
+<img src="Destop view.png" style="width:53%;">
+
+**Mobile View**<br>
 <img src="Mobile_view.jpeg">
