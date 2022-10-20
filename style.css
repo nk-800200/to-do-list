@@ -1,0 +1,169 @@
+#to-do-app{
+    display:block;
+    width:60%;
+    top:10%;
+    margin-bottom:20px;   
+    position:absolute;   
+    right:20%; 
+    border-radius:10px;
+    text-align:center;  
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+ }
+ #heading{
+     color:white; 
+     font-size:20px;
+ }
+ ::placeholder{
+     color:white;
+ }
+ #input{
+     border:3px solid #5d0cff;  
+     height:40px;
+     width:60%;
+     outline:none;  
+     background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);  
+     border-radius:10px;  
+     text-align:center;
+     color:white; 
+ }
+ #task{
+     width:80%;
+     flex-direction:column;
+     justify-content:center;
+ }
+ .task-row{
+     display:inline-block;
+     width:80%;
+     color:white; 
+     line-height:40px;  
+     padding-left:20px;  
+     border:0px solid aqua;  
+     border-radius:5px;
+     background-color: #FAD961;
+     text-align:left;
+     background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);  
+           
+ }
+ .icons{
+         cursor:pointer;  
+ }
+ #icon{
+     margin-right:30px;
+ }
+ .d1{
+      display:inline-block;
+      width:80%;
+      text-align:left;
+ }
+ .d2{
+      display:inline-block;  
+      text-align:center;  
+ }
+ .task-row:nth-child(4n + 1) {
+     background: linear-gradient(
+       90deg,
+       rgba(93, 12, 255, 1) 0%,
+       rgba(155, 0, 250, 1) 100%
+     );
+   }
+   
+   .para:nth-child(4n + 2) {
+     background: linear-gradient(
+       90deg,
+       rgba(255, 12, 241, 1) 0%,  
+       rgba(250, 0, 135, 1) 100%  
+     );
+   }
+   
+   .task-row:nth-child(4n + 3) {  
+     background: linear-gradient(
+       90deg,
+       rgba(20, 159, 255, 1) 0%,  
+       rgba(17, 122, 255, 1) 100%
+     );
+   }
+   .task-row:nth-child(4n+4)
+   {
+     background-color: #db21fd;
+background-image: linear-gradient(19deg, #db21fd 0%, #f841f9 100%);
+
+       
+   }
+  .btn1:hover{
+        transform:translateY(-1px);  
+  }
+ .btn1{
+     margin-left:0px;  
+     color:#fff;
+     cursor:pointer;
+     border:none;
+     width:120px;
+     background-image:linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);  
+     border-radius:5px;   
+     line-height:40px;
+ }
+ /*@media only screen and (max-width:900px and min-width:500px)        
+ {
+        #to-do-app{
+            width:60%;  
+            left:20%;   
+            right:20%;
+         }
+         .task-row{
+           width:60%;
+           font-size:20px; 
+       }
+       #heading{
+           font-size:20px;
+       }
+       .btn1{
+           font-size:20px; 
+           width:120px;
+       }
+ }*/
+
+ @media only screen and (max-width:800px){  
+   #to-do-app{
+     width:80%;
+     left:10%;   
+     right:10%;
+    }
+    #icon{
+         margin-right:10px;
+    }
+     .task-row{
+        width:70%;
+        font-size:15px; 
+     }
+     #heading{
+        font-size:12px; 
+    }
+     .btn1{
+        font-size:18px;  
+        width:100px;
+     }
+ }
+ @media only screen and (max-width:600px)  
+ {
+    #to-do-app{
+        width:100%;
+        top:0%;
+        border-radius:0px;      
+        left:0%;
+        right:0%;
+       }
+       #icon{
+           margin-right:5px;
+       }
+        .task-row{
+           width:70%;
+           font-size:12px;  
+        }
+        #heading{
+           font-size:12px; 
+       }
+        .btn1{
+           font-size:14px;  
+           width:100px;
+        }
+ }
