@@ -8,7 +8,7 @@ A simple web page to create to do list. User can add or remove task from the lis
 
 ### Screenshots
 **Destop View**<br>
-<img src="Destop view.png" style="width:53%;">
+<img src="Destop view.png" style="width:500px;">
 
 **Mobile View**<br>
-<img src="Mobile_view.jpeg">
+<img src="Mobile_view.jpeg" style = "width:500px;">
